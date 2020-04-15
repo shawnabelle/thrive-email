@@ -1,0 +1,325 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+
+
+
+html, body,
+.body {
+  background: #f3f3f3 !important;
+  background-color: #f3f3f3; 
+  box-sizing: content-box;
+}
+.container {
+  background: #fff;
+}
+h1 {
+font-weight: bold;
+text-align: center;
+}
+h5 {
+  font-weight: 700;
+}
+h4, .greeting {
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+}
+p {
+  text-align: center;
+  font-weight: normal;
+  margin: 0px;
+}
+.logo {
+  padding: 10px;
+}
+.gray {
+  background-color: #F4F4F4;
+  background: #F4F4F4;
+  width: 400px;
+}
+body > table > tbody > tr > td > center > table > tbody > tr > td > table.row.gray > tbody > tr > th {
+  padding-top: 16px;
+}
+.button {
+  color: #fff !important;
+  background: #32D090;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+}
+.button-section {
+  padding-top: 35px;
+  padding-bottom: 35px !important;
+  margin: 0px;
+  hr {
+    border: 3px solid #F4F4F4;
+    margin-top: 40px;
+  }
+}
+
+body > table > tbody > tr > td > center > table > tbody > tr > td > table > tbody > tr > th > table > tbody > tr > th > table:nth-child(6) > tbody > tr > th > table > tbody > tr > th > table > tbody > tr > th{
+  padding-bottom: 0;
+}
+body > table > tbody > tr > td > center > table > tbody > tr > td > table > tbody > tr > th > table > tbody > tr > th > h4 {
+  padding: 15px;
+}
+.order-summary {
+background-color: #F4F4F4;
+
+h5 {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.order-info 
+{
+  padding-top: 10px;
+
+span {
+  display: block;
+  margin:0 auto;
+  padding-left: 10px;
+} 
+}
+.paypal {
+  padding-top: 10px;
+span {
+  margin: 0;
+  display: block;
+}
+}
+
+}
+body > table > tbody > tr > td > center > table > tbody > tr > td > table > tbody > tr > th > table > tbody > tr > th > table.row.order-summary > tbody > tr > th {
+  padding: 15px;
+}
+h6 {
+  color: #32D090;
+  font-weight: 700;
+  margin: 0;
+}
+hr.white {
+  border: 3px solid white;
+  margin: 0;
+}
+.desc {
+  background-color: #F4F4F4;
+.item {
+  h5{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 700;
+    overflow: auto;
+  }
+}
+.qty {
+  h5{
+    margin-top: 10px;
+    margin-left: 60px;
+    font-weight: 700;
+    display: inline-block;
+  }
+}
+.price {
+  h5{
+    margin-top: 10px;
+    margin-right: 20px;
+    font-weight: 700;
+    display: inline-block;
+  }
+}
+}
+.shopping-list {
+  background-color: #F4F4F4;
+  & img {
+    width: 125px;
+    height: 125px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    vertical-align: top;
+  }
+  h5 {
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    display: block;
+  }
+  h6{
+    font-size: 14px;
+    overflow: auto;
+    font-weight: 700;
+    display: block;
+    margin-top: 20px;
+  }
+.qty-list {
+h5 {
+  margin-left: 90px;
+  display: inline-block;
+} 
+  }
+  .price-list {
+    margin-right: 20px;
+    display: inline-block
+  }
+  }
+  .order-summary {
+    .subtotal-box {
+    padding-top: 20px;
+    span {
+      display: block;
+      padding-left: 150px;
+    }
+  }
+    .total-box {
+      padding-top: 20px;
+    h6{
+      display: block;
+      text-align: right;
+      padding-right: 50px;
+    }
+  }
+    .total {
+      padding-top: 15px;
+    }
+  }
+  
+  .body .columns td.large-4, .body .column td.large-4, .body .columns th.large-4, .body .column th.large-4 {
+    width: 70%;
+    padding-bottom: 0;
+  }
+  .meat-img 
+    img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+  .gray-hr {
+    border: 1px solid #dddada;
+  margin-bottom: 0;
+  width: 570px;
+ 
+
+  }
+  body > table > tbody > tr > td > center > table.container.float-center > tbody > tr > td > section:nth-child(1) > table:nth-child(3) > tbody > tr > th {
+    padding-bottom: 0;
+  }
+
+  
+  
+ .footer-social {
+  border-left: 15px solid #fff;
+  border-right: 15px solid #fff;
+  
+  .gray {
+    background-color: #F4F4F4;
+    background: #F4F4F4;
+  }
+   & tbody > tr > th {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    th {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+    
+  }
+  .social-icons {
+
+  img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  }
+  .lower-links {
+    .link {
+      font-size: 14px !important;
+      font-weight: 700;
+      color: rgb(121, 118, 118);
+      padding: 10px;
+      &:hover {
+        color: $primary-color !important;
+      }
+    }
+    span,
+  .menu-divider {
+    display: inline-block; 
+      height: 12px; 
+      width: 2px; 
+      background: rgb(121, 118, 118); 
+      background-color: rgb(121, 118, 118);
+  }
+  }
+  
+  .footer-bottom {
+    border-left: 15px solid #fff;
+border-right: 15px solid #fff;
+border-bottom: 15px solid #fff;
+    background-color: #F4F4F4;
+    background: #F4F4F4;
+      width: 600px;
+      height: 100%;
+    }
+  .privacy .columns p {
+font-size: 14px;
+color: black;
+  }
+  .address .columns p {
+    font-size: 12px;
+      }
+      .copyright .columns p {
+        font-size: 12px;
+          }
+          body > table.container.float-center > tbody > tr > td > table > tbody > tr > th > table > tbody > tr > th > table.row.address > tbody > tr > th {
+            background: #F4F4F4;
+          }
+          body > table > tbody > tr > td > center > table.container.float-center > tbody > tr > td > section:nth-child(2) > table:nth-child(3) > tbody > tr > th {
+            background: #F4F4F4;
+          }
+          body > table > tbody > tr > td > center > table.row.footer-bottom {
+            width: 600px;
+       
+          }
+          body > table > tbody > tr > td > center > table.row.footer-bottom > tbody > tr > th {
+            padding: 0 !important ;
+          }
+          #footer > table:nth-child(3) > tbody > tr > th {
+            padding-left: 0 !important ;
+            padding-right: 0 !important;
+          }
+          body > table > tbody > tr > td > center > table.row.footer-bottom {
+           width: 572px;
+          }
+          #footer > table:nth-child(3) > tbody > tr > th {
+            border-left: 15px solid #fff;
+            border-right: 15px solid #fff;
+          }
+          
+
+          @media only screen and (max-width: 550px) {
+            
+            img.item-img {
+              max-width: 50%;
+              max-height: 50%;
+    
+  
+            }
+           .shopping-list h5 {
+             font-size: 12px;
+           } 
+           
+       
+          }
+          
+          
